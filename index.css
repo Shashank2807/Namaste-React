@@ -5,7 +5,7 @@
 }
 
 .logo{
-    width: 200;
+    width: 100px;
 }
 
 .nav-items > ul{
@@ -30,12 +30,17 @@
 
 .res-card{
     width: 200px;
-    height: 300px;
+    margin: 5px;
     padding: 5px;
 }
 
 .res-card:hover{
     cursor: pointer;
     border: 1px solid black;
+}
+
+.res-container{
+    display: flex;
+    flex-wrap: wrap;
 }
 
